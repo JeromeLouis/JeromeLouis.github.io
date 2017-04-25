@@ -47,8 +47,15 @@
 			</pre>
 			</div>
 		</div>
-
-		<script> var xmlhttp = new XMLHttpRequest();
+		
+		<script type="text/javascript">
+			function homePageLoading() {
+		
+			url = 'https://api.blockcypher.com/v1/btc/main';
+			elementID = 'idDeVotreElementHtml';
+			fonctionRequeteApi(url, elementID);
+			
+			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
 					var myObj = this.responseText;
@@ -58,7 +65,10 @@
 			};
 			xmlhttp.open("GET", "https://api.blockcypher.com/v1/btc/main", true);
 			xmlhttp.send();
+			}
 		</script>
+		
+		<script type="text/javascript">homePageLoading();</script>
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
