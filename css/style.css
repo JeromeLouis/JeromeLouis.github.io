@@ -9,3 +9,8 @@ h1{
 h2{
     text-align:center;
     font-size:12px;
+}
+p
+{
+    background-image:url("téléchargement.jpg");
+}
