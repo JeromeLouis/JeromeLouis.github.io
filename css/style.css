@@ -10,7 +10,11 @@ h2{
     text-align:center;
     font-size:12px;
 }
-p
+body
+
 {
-    background-image:url("téléchargement.jpg");
+
+    background-image: url("JeromeLouis.github.io/css/img/téléchargement.jpg");
+	background-size: cover;
+
 }
