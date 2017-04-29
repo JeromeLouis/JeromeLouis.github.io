@@ -11,11 +11,7 @@ h2{
     font-size:12px;
 	color : blue;
 }
-body
-
-{
-
-    background-image: url(JeromeLouis.github.io/css/bckgnd.jpg);
-	background-size: cover;
-
+body {
+    background: url(../bckgnd.JPG) no-repeat center center;
+    background-size: cover; 
 }
